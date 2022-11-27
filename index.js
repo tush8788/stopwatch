@@ -111,6 +111,6 @@ function resetTimmer(){
         startTimmerBtn.disabled=false;
     }
     else{
-        alert("First Start Timmer ")
+        alert("First Start Stopwatch")
     }
 }
