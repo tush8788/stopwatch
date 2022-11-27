@@ -49,5 +49,22 @@ body{
     font-size: 1.3rem;
     border-radius: 8px 0px 8px 0px;
     font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
+/*adding hover effect to btn*/
+#start-timmer:hover:enabled{
+    background-color: #FC00FF;
+    color: white;
+}
+
+#stop-timmer:hover{
+    background-color: #FC00FF;
+    color: white;
+}
+
+#reset-timmer:hover{
+    background-color: #FC00FF;
+    color: white;
+}

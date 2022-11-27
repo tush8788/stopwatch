@@ -89,6 +89,9 @@ function stopTimmer(){
         clearInterval(intervalId);
         startTimmerBtn.disabled=false;
     }
+    else{
+        alert("First Start Stopwatch");
+    }
 }
 
 //reset timmer function
@@ -104,6 +107,7 @@ function resetTimmer(){
         counter[3].innerHTML=count3;
 
         clearInterval(intervalId);
+        intervalId=undefined;
         startTimmerBtn.disabled=false;
     }
     else{
