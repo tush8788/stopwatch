@@ -31,7 +31,7 @@ function startTimmer() {
     //after timmer start start btn is disabled
     startTimmerBtn.disabled=true;
     
-    intervalId = setInterval(start, 10);
+    intervalId = setInterval(start, 1000);
 
     function start() 
     {
